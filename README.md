@@ -1,4 +1,4 @@
-# HW_20-Solidity
+# Associate Profit Splitter
 
 ## Smart Contract
 - Goal is to deploy a contract that will accept ether and divide evenly among associate level employees
