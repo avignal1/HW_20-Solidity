@@ -26,6 +26,21 @@ Step 5) External Payable Function
 
 ![Deploying Contract](Screenshots/DeployingContract.PNG)
 
-![Pre-Transaction Amounts ](Screenshots/PreTransactionAmounts.PNG)
+## Test Transaction
 
-## Completing Transaction
+![Pre-Transaction Amounts](Screenshots/PreTransactionAmounts.PNG)
+    - Account information for the sending account and 3 recipient accounts
+
+    1. After deploying contract, set up transaction parameters (in this case, value of deposit is 3 ETH, distributing 1 ETH to all three accounts in Address fields)
+
+![Test Transcation](Screenshots/TestTransaction.PNG)
+
+    2. Confirm transaction through MetaMax -- Success
+
+![Transaction Confirmation](Screenshots/Confirmation.PNG)
+
+    3. Updated Account Figures in Ganache
+
+![Updated Amounts](Screenshots/NewAcctBalances.PNG)
+
+    Note: I had difficulty with this step and tried a few minor transactions (through MetaMax) that affected the account balances prior to this successful transaction (in case you were wondering why the Pre Transaction Amount Balances don't match with the Updated Account figures)
